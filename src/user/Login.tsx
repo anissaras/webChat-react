@@ -27,7 +27,7 @@ export function Login() {
 
     return(<>
         <form onSubmit={handleSubmit}>
-            <input name="login" placeholder="login"/><br/>
+            <input name="login" placeholder="logIn"/><br/>
             <input name="password" placeholder="password"/><br/>
             <button type="submit">connexion</button>
         </form>
